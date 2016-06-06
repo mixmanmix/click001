@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390125561D0511040084B256 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 390125521D0511040084B256 /* NotoSans-Bold.ttf */; };
+		390125571D0511040084B256 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 390125531D0511040084B256 /* NotoSans-BoldItalic.ttf */; };
+		390125581D0511040084B256 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 390125541D0511040084B256 /* NotoSans-Italic.ttf */; };
+		390125591D0511040084B256 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 390125551D0511040084B256 /* NotoSans-Regular.ttf */; };
+		394512A31D04941900DA4664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394512A21D04941900DA4664 /* AppDelegate.swift */; };
+		394512A51D04941900DA4664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394512A41D04941900DA4664 /* ViewController.swift */; };
+		394512A81D04941900DA4664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394512A61D04941900DA4664 /* Main.storyboard */; };
+		394512AA1D04941900DA4664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394512A91D04941900DA4664 /* Assets.xcassets */; };
+		394512AD1D04941900DA4664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394512AB1D04941900DA4664 /* LaunchScreen.storyboard */; };
+		39A585961D05123A0003B4B3 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A585951D05123A0003B4B3 /* MaterialView.swift */; };
+		39A585991D0512910003B4B3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A585981D0512910003B4B3 /* Constants.swift */; };
+		39A5859B1D0516F70003B4B3 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A5859A1D0516F70003B4B3 /* MaterialButton.swift */; };
+		39A5859D1D05197B0003B4B3 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A5859C1D05197B0003B4B3 /* MaterialTextField.swift */; };
+		39ED04981D052F2500694487 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ED04951D052F2500694487 /* Bolts.framework */; };
+		39ED04991D052F2500694487 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ED04961D052F2500694487 /* FBSDKCoreKit.framework */; };
+		39ED049A1D052F2500694487 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39ED04971D052F2500694487 /* FBSDKLoginKit.framework */; };
+		9D5FB03D9F4E77AA2DB66ECE /* Pods_ClickWash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874A76B7AAC09D3E9B0F9629 /* Pods_ClickWash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1018617C949FF0339B872BFA /* Pods-ClickWash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickWash.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClickWash/Pods-ClickWash.release.xcconfig"; sourceTree = "<group>"; };
+		390125521D0511040084B256 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		390125531D0511040084B256 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		390125541D0511040084B256 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		390125551D0511040084B256 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		3945129F1D04941900DA4664 /* ClickWash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickWash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		394512A21D04941900DA4664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		394512A41D04941900DA4664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		394512A71D04941900DA4664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		394512A91D04941900DA4664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394512AC1D04941900DA4664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		394512AE1D04941900DA4664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A585951D05123A0003B4B3 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		39A585981D0512910003B4B3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		39A5859A1D0516F70003B4B3 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		39A5859C1D05197B0003B4B3 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		39ED04951D052F2500694487 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		39ED04961D052F2500694487 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		39ED04971D052F2500694487 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7D7292FA7159975D05BDB941 /* Pods-ClickWash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickWash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClickWash/Pods-ClickWash.debug.xcconfig"; sourceTree = "<group>"; };
+		874A76B7AAC09D3E9B0F9629 /* Pods_ClickWash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClickWash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3945129C1D04941900DA4664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39ED04981D052F2500694487 /* Bolts.framework in Frameworks */,
+				39ED04991D052F2500694487 /* FBSDKCoreKit.framework in Frameworks */,
+				39ED049A1D052F2500694487 /* FBSDKLoginKit.framework in Frameworks */,
+				9D5FB03D9F4E77AA2DB66ECE /* Pods_ClickWash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3901254E1D0510D80084B256 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3901254F1D0510E20084B256 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39A585951D05123A0003B4B3 /* MaterialView.swift */,
+				39A5859A1D0516F70003B4B3 /* MaterialButton.swift */,
+				39A5859C1D05197B0003B4B3 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		390125501D0510E60084B256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		390125511D0510EA0084B256 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				390125521D0511040084B256 /* NotoSans-Bold.ttf */,
+				390125531D0511040084B256 /* NotoSans-BoldItalic.ttf */,
+				390125541D0511040084B256 /* NotoSans-Italic.ttf */,
+				390125551D0511040084B256 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		394512961D04941900DA4664 = {
+			isa = PBXGroup;
+			children = (
+				394512A11D04941900DA4664 /* ClickWash */,
+				394512A01D04941900DA4664 /* Products */,
+				5080B9E5CD9D190803D38142 /* Pods */,
+				BC53D122F05A8CA46A2B10E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		394512A01D04941900DA4664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3945129F1D04941900DA4664 /* ClickWash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		394512A11D04941900DA4664 /* ClickWash */ = {
+			isa = PBXGroup;
+			children = (
+				39ED04941D052F1400694487 /* Frameworks */,
+				39A585971D0512790003B4B3 /* Util */,
+				390125511D0510EA0084B256 /* Resources */,
+				390125501D0510E60084B256 /* Model */,
+				3901254F1D0510E20084B256 /* View */,
+				3901254E1D0510D80084B256 /* Controller */,
+				394512A21D04941900DA4664 /* AppDelegate.swift */,
+				394512A41D04941900DA4664 /* ViewController.swift */,
+				394512A61D04941900DA4664 /* Main.storyboard */,
+				394512A91D04941900DA4664 /* Assets.xcassets */,
+				394512AB1D04941900DA4664 /* LaunchScreen.storyboard */,
+				394512AE1D04941900DA4664 /* Info.plist */,
+			);
+			path = ClickWash;
+			sourceTree = "<group>";
+		};
+		39A585971D0512790003B4B3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				39A585981D0512910003B4B3 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		39ED04941D052F1400694487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39ED04951D052F2500694487 /* Bolts.framework */,
+				39ED04961D052F2500694487 /* FBSDKCoreKit.framework */,
+				39ED04971D052F2500694487 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5080B9E5CD9D190803D38142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D7292FA7159975D05BDB941 /* Pods-ClickWash.debug.xcconfig */,
+				1018617C949FF0339B872BFA /* Pods-ClickWash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC53D122F05A8CA46A2B10E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874A76B7AAC09D3E9B0F9629 /* Pods_ClickWash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3945129E1D04941900DA4664 /* ClickWash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394512B11D04941A00DA4664 /* Build configuration list for PBXNativeTarget "ClickWash" */;
+			buildPhases = (
+				D9923B548AED76B23C4B0F77 /* [CP] Check Pods Manifest.lock */,
+				3945129B1D04941900DA4664 /* Sources */,
+				3945129C1D04941900DA4664 /* Frameworks */,
+				3945129D1D04941900DA4664 /* Resources */,
+				FE5974C519552D6052371B5F /* [CP] Embed Pods Frameworks */,
+				A75E2E0AEFAA4752CB1E8B66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickWash;
+			productName = ClickWash;
+			productReference = 3945129F1D04941900DA4664 /* ClickWash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394512971D04941900DA4664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = deepfriedmobile;
+				TargetAttributes = {
+					3945129E1D04941900DA4664 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3945129A1D04941900DA4664 /* Build configuration list for PBXProject "ClickWash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394512961D04941900DA4664;
+			productRefGroup = 394512A01D04941900DA4664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3945129E1D04941900DA4664 /* ClickWash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3945129D1D04941900DA4664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390125561D0511040084B256 /* NotoSans-Bold.ttf in Resources */,
+				394512AD1D04941900DA4664 /* LaunchScreen.storyboard in Resources */,
+				390125571D0511040084B256 /* NotoSans-BoldItalic.ttf in Resources */,
+				390125581D0511040084B256 /* NotoSans-Italic.ttf in Resources */,
+				394512AA1D04941900DA4664 /* Assets.xcassets in Resources */,
+				394512A81D04941900DA4664 /* Main.storyboard in Resources */,
+				390125591D0511040084B256 /* NotoSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A75E2E0AEFAA4752CB1E8B66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClickWash/Pods-ClickWash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9923B548AED76B23C4B0F77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5974C519552D6052371B5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClickWash/Pods-ClickWash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3945129B1D04941900DA4664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A5859D1D05197B0003B4B3 /* MaterialTextField.swift in Sources */,
+				39A585961D05123A0003B4B3 /* MaterialView.swift in Sources */,
+				394512A51D04941900DA4664 /* ViewController.swift in Sources */,
+				394512A31D04941900DA4664 /* AppDelegate.swift in Sources */,
+				39A585991D0512910003B4B3 /* Constants.swift in Sources */,
+				39A5859B1D0516F70003B4B3 /* MaterialButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		394512A61D04941900DA4664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394512A71D04941900DA4664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		394512AB1D04941900DA4664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394512AC1D04941900DA4664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		394512AF1D04941A00DA4664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		394512B01D04941A00DA4664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		394512B21D04941A00DA4664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7292FA7159975D05BDB941 /* Pods-ClickWash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ClickWash",
+				);
+				INFOPLIST_FILE = ClickWash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepfriedmobile.ClickWash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		394512B31D04941A00DA4664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1018617C949FF0339B872BFA /* Pods-ClickWash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ClickWash",
+				);
+				INFOPLIST_FILE = ClickWash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepfriedmobile.ClickWash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3945129A1D04941900DA4664 /* Build configuration list for PBXProject "ClickWash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394512AF1D04941A00DA4664 /* Debug */,
+				394512B01D04941A00DA4664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394512B11D04941A00DA4664 /* Build configuration list for PBXNativeTarget "ClickWash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394512B21D04941A00DA4664 /* Debug */,
+				394512B31D04941A00DA4664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 394512971D04941900DA4664 /* Project object */;
+}
